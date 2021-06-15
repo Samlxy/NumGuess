@@ -1,0 +1,32 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="index.css">
+  </head>    
+
+  <body>
+      <div id='container'>
+          <h2>NUMBER GUESS</h2>
+          <p><strong>Player 1:</strong> Input any number of your choice from <strong>[0 - 10]</strong></p>
+              <input id="actual-value" class='input-style' type="password" name="player1-number" size="6"/>
+                <p><hr class="tiny-box" /></p>  
+
+          <p><strong>Player 2:</strong> Guess the number inputed by player 1</p>
+              <input id="guess-value" class='input-style' type="text" name="player2-guess" size="6" />
+
+            <p><button id='check-guess' onclick='verifyGuess()'>Check</button> <button id='reset-all' onclick="resetGame()">Reset</button></p>
+            
+                <p id="line"><hr></p>
+
+            <div id="output-field"></div>
+            <div id="details">samuel nwali . samuelnwali20@gmail.com . 24/10/2020</div>
+      </div>
+
+  </body>
+
+  <script src="index.js"></script>    
+
+</html>

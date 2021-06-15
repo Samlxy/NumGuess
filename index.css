@@ -1,0 +1,60 @@
+#container {
+  background-color: lightgray;
+  height: 38em;
+  width: 28em;
+  margin: auto;
+  font-size: 1.2em;
+  text-align: center;
+  border-radius: 1em;
+  border: 2px solid green;
+}
+
+.input-style {
+  font-size: 1.2em;
+  height: 1.2em;
+  padding: 5px;
+  text-align: center;
+}
+
+.tiny-box {
+  height: 10px;
+  width: 9px;
+  background-color: green;
+}
+
+button {
+  margin-top: 1.5em;
+  padding: 5px 30px;
+  font-size: 0.8em;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+#output-field {
+  font-size: 1.5em;
+  padding-top: 10px;
+}
+
+#details {
+  font-size: 15px;
+  position: fixed;
+  top: 47.5em;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 620px) {
+  #container {
+    width: 100%;
+    height: 30em;
+ }
+
+  #output-field {
+    font-size: 1.2em;
+  }
+
+  #details {
+    top: 37em;
+  }
+}
